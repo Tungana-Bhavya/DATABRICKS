@@ -27,10 +27,20 @@ Foodie-Fi Customer & Revenue Analytics Dashboard with AIBI Genie & Databricks
 
 ### *** key Features ***</br>
  #### Revenue KPIs:</br>
-Total Revenue ($), Average Revenue Per User($), Monthly Recurring Revenue (MRR) ($), Overall Churn Rate (%), Trial Plan Churn Rate (%) and Monthly Trial Plan Signups.</br>
+- Total Revenue ($)</br>
+- Average Revenue Per User($)</br>
+- Monthly Recurring Revenue (MRR) ($)</br>
+- Overall Churn Rate (%)</br>
+- Trial Plan Churn Rate (%) </br>
+- Monthly Trial Plan Signups</br>
 
 #### Customer KPIs:</br>
-Total Customers, Pro Annual Customers, Downgraded Customers, Cummulative Customer Growth, Foodie-Fi Customer Distribution by Plan Type (%) and Foodi-Fi Subscription Plan Rates ($).</br>
+- Total Customers </br>
+- Pro Annual Customers</br>
+- Downgraded Customers</br>
+- Cummulative Customer Growth</br>
+- Foodie-Fi Customer Distribution by Plan Type (%)</br>
+- Foodi-Fi Subscription Plan Rates ($)</br>
 
 #### Dashboard Features:</br>
 - AIBI Multi-Page Dashboard </br>
@@ -47,7 +57,7 @@ NLP Queries were used to understand the structure of the data before peformaing 
 <h3 align ='left'>1. How many tables are there?</h3>
 
 #### Source Code:</br>
-The foodie-fi database consists of two tables i.e plans and subscriptions.
+The foodie-fi database consists of two tables i.e plans and subscriptions.</br>
 SELECT table_name FROM INFORMATION_SCHEMA.TABLES</br>
 WHERE TABLE_SCHEMA = 'foodie_fi' AND TABLE_TYPE = 'BASE TABLE';
 
@@ -671,7 +681,7 @@ WHERE plan_name != 'churn' ORDER BY price ASC;</br>
 
 ------------
 
-#### C. Databricks Monitoriing View
+#### C. Databricks Monitoring View
 
 <p>A Databricks monitoring view gives a detailed look at user interactions and data quality over time. It combines user ratings, creation and update timestamps, and user request status. This setup helps track data quality attributes such as accuracy, consistency, and completeness. It also monitors the performance of machine learning models.</p>
 

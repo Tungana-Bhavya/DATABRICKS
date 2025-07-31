@@ -52,7 +52,7 @@ Foodie-Fi Customer & Revenue Analytics Dashboard with AIBI Genie & Databricks
 ### *** Description & Screenshots ***</br>
 Here is a visual walkthrough of the project that includes data exploration and dashboarding driven by AI using Databricks SQL and AIBI Genie.</b>
 
-#### A. Dataset Exploration Using AIBI Genie
+### A. Dataset Exploration Using AIBI Genie
 NLP Queries were used to understand the structure of the data before peformaing analysis.
 <h3 align ='left'>1. How many tables are there?</h3>
 
@@ -117,8 +117,8 @@ SELECT (</br>
 
 ------------
 
-#### B. Case Study Questions - SQL Analysis
-#### 1. Customer Journey
+### B. Case Study Questions - SQL Analysis
+### 1. Customer Journey
 
 <h3 align ='left'>1. Find the unique customers based on the given sample = [1, 2, 11, 13, 15, 16, 18, 19] from the subscriptions table including details with their plans ?</h3>
 
@@ -142,7 +142,7 @@ WHERE
 </p>
 
 ------------
-#### 2. Data Analysis Questions
+### 2. Data Analysis Questions
 
 <h3 align ='left'>1. What are the different plan names available in the plans table ?</h3>
 
@@ -466,8 +466,8 @@ WHERE max_tier > min_tier
 
 ------------
 
-#### C. Metrics Calculation
-#### 1. Revenue Analysis Metrics
+### C. Metrics Calculation
+### 1. Revenue Analysis Metrics
 
 <h3 align ='left'>1. How to calculate average revenue per user ?</h3>
 
@@ -681,7 +681,7 @@ WHERE plan_name != 'churn' ORDER BY price ASC;</br>
 
 ------------
 
-#### C. Databricks Monitoring View
+### C. Databricks Monitoring View
 
 <p>A Databricks monitoring view gives a detailed look at user interactions and data quality over time. It combines user ratings, creation and update timestamps, and user request status. This setup helps track data quality attributes such as accuracy, consistency, and completeness. It also monitors the performance of machine learning models.</p>
 
@@ -691,8 +691,8 @@ WHERE plan_name != 'churn' ORDER BY price ASC;</br>
 
 ------------
 
-#### D. Interactive Dashboards
-####  Revenue Analytics Dashboard (Page 1)
+### D. Interactive Dashboards
+###  Revenue Analytics Dashboard (Page 1)
 
 <p>The following dashboard provides an overview of foodie-fi revenue analysis:</p>
 
@@ -700,7 +700,7 @@ WHERE plan_name != 'churn' ORDER BY price ASC;</br>
   <img  src="https://github.com/Tungana-Bhavya/DATABRICKS/blob/main/FILES/IMAGES/REVENUE_ANALYSIS_DASHBOARD.jpg">
 </p>
 
-#### Customer Analytics Dashboard (Page 2)
+### Customer Analytics Dashboard (Page 2)
 
 <p>The following dashboard provides an overview of foodie-fi customer analysis:</p>
 

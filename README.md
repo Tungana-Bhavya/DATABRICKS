@@ -3,13 +3,13 @@
 
 <p align = "center"><img src="https://github.com/Tungana-Bhavya/DATABRICKS/blob/main/FILES/IMAGES/PROJECT_LOGO.png" alt="Image"></p>
 
-### *** Project Title ***
+## *** Project Title ***
 
 Foodie-Fi Customer & Revenue Analytics Dashboard with AIBI Genie & Databricks
 
 ----------------
 
-### *** Project Description ***</br>
+## *** Project Description ***</br>
 <p>This project, which is a part of the 8-Week SQL Challenge, is an in-depth analysis of subscription trends and purchasing habits for the Foodie-Fi SQL Case Study. The project investigates important customer and revenue metrics obtained from the plans and subscriptions datasets using Databricks and AIBI Genie, a BI assistant powered by natural language.</p>
 
 <p>An AI-powered multi-page dashboard was created to visualize insights using charts, tables, and KPI cards. Understanding customer upgrade/downgrade behavior, revenue growth, and churn are just a few of the strategic business decisions that the analysis supports.</p>
@@ -17,7 +17,7 @@ Foodie-Fi Customer & Revenue Analytics Dashboard with AIBI Genie & Databricks
 ----------------
 
 
-### *** Tools/Technologies Used ***</br>
+## *** Tools/Technologies Used ***</br>
 - Databricks SQL: a unified platform for creating and running SQL queries</br>
 - AIBI Genie (within Databricks)—for AI-powered, natural language-based data exploration and dashboard creation</br>
 - SQL is used to determine KPIs such as customer growth, MRR, ARPU, and churn rate.</br>
@@ -25,7 +25,7 @@ Foodie-Fi Customer & Revenue Analytics Dashboard with AIBI Genie & Databricks
 
 ----------------
 
-### *** key Features ***</br>
+## *** key Features ***</br>
  #### Revenue KPIs:</br>
 - Total Revenue ($)</br>
 - Average Revenue Per User($)</br>
@@ -49,7 +49,7 @@ Foodie-Fi Customer & Revenue Analytics Dashboard with AIBI Genie & Databricks
 
 ----------------
 
-### *** Description & Screenshots ***</br>
+## *** Description & Screenshots ***</br>
 Here is a visual walkthrough of the project that includes data exploration and dashboarding driven by AI using Databricks SQL and AIBI Genie.</b>
 
 ### A. Dataset Exploration Using AIBI Genie
@@ -710,7 +710,7 @@ WHERE plan_name != 'churn' ORDER BY price ASC;</br>
 
 ----------------
 
-### E. *** Key Learnings ***</br>
+## E. *** Key Learnings ***</br>
 - Gained Practical experience using Databricks SQL workspace, Genie workspace including notebooks for efficient data analysis.</br>
 - Utilized Databricks AIBI Genie feature for natural language querying.</br>
 - Calculated KPI Metrics, learned when to use which type of charts.</br>
